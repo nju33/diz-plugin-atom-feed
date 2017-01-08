@@ -1,0 +1,51 @@
+{
+  "name": "diz-plugin-atom-feed",
+  "description": "A Diz plugin that create the Atom feed",
+  "version": "0.0.6",
+  "author": "nju33 <nju33.ki@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nju33/diz-plugin-collection-page-generator/issues",
+    "email": "nju33.ki@gmail.com"
+  },
+  "dependencies": {
+    "lodash.isnull": "^3.0.0",
+    "lodash.omitby": "^4.6.0",
+    "uuid": "^3.0.1",
+    "validated": "^0.9.0",
+    "xmlbuilder": "^8.2.2"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-util": "^3.0.8",
+    "lodash.escaperegexp": "^4.1.2",
+    "xo": "^0.17.1"
+  },
+  "homepage": "https://github.com/nju33/diz-plugin-collection-page-generator#readme",
+  "keywords": [
+    "diz",
+    "diz-plugin"
+  ],
+  "license": "MIT",
+  "main": "./atom-feed.js",
+  "repository": "nju33/diz-plugin-collection-page-generator",
+  "scripts": {
+    "build": "gulp babel",
+    "prepublish": "yarn build",
+    "start": "gulp watch",
+    "test": "xo"
+  },
+  "xo": {
+    "space": 2
+  }
+}
