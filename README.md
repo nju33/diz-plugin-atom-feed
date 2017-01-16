@@ -1,8 +1,8 @@
-# Atom Feed
+# diz-plugin-atom-feed
 
 A [Diz](https://github.com/nju33/diz) plugin that create the Atom feed
 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![Build Status](https://travis-ci.org/nju33/diz-plugin-atom-feed.svg?branch=master)](https://travis-ci.org/nju33/diz-plugin-atom-feed) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 ## Install
 
@@ -25,4 +25,6 @@ $ npm i -D diz-plugin-atom-feed
 
 ## License
 
-MIT
+The MIT License (MIT)
+
+Copyright (c) 2016 nju33 <nju33.ki@gmail.com>
