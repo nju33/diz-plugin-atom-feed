@@ -38,7 +38,7 @@
   ],
   "license": "MIT",
   "main": "./atom-feed.js",
-  "repository": "nju33/diz-plugin-collection-page-generator",
+  "repository": "nju33/diz-plugin-atom-feed",
   "scripts": {
     "build": "gulp babel",
     "prepublish": "yarn build",
